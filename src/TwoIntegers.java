@@ -46,6 +46,7 @@ public class TwoIntegers {
 		return num + " + " + num2 + " = " + numsum + 
 				", " + num + " * " + num2 + " = " + numproduct;
 		
+		
 	}
 	public int larger()
 	{
@@ -57,8 +58,15 @@ public class TwoIntegers {
 	
 	public boolean isEven()
 	{
-		if(num + num2 = 2 % ==0)
+		if((num + num2) % 2 == 0)
+		{
 			return true;
+		}
+		else
+		{
+			return false;
+		}
+			
 	}
 	
 }
