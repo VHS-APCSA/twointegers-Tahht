@@ -41,10 +41,12 @@ public class TwoIntegers {
 		int numsum = num + num2;
 		int numproduct = num * num2;
 		int numdifference = num - num2;
-		int numquotient = num / num2;
+		double numquotient = (double) num / num2;
 		
 		return num + " + " + num2 + " = " + numsum + 
-				", " + num + " * " + num2 + " = " + numproduct;
+				", " + num + " * " + num2 + " = " + numproduct +
+				", " + num + " - " + num2 + " = " + numdifference +
+				", " + num + " / " + num2 + " = " + numquotient;
 		
 		
 	}
@@ -66,7 +68,20 @@ public class TwoIntegers {
 		{
 			return false;
 		}
-			
+		
 	}
+	public boolean isMultiple()
+	{
+		if((num2 / num) % 2 == 0)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+			
+	
 	
 }
