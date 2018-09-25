@@ -14,10 +14,10 @@ public class TwoIntRunner {
 		System.out.println(larger + " "
 				+ "is the larger number. ");
 		boolean isEven = ti.isEven();
-		System.out.println("If the sum of these two numbers is even then it is true, so this number is " 
+		System.out.println("If sum is even: " 
 		+ isEven);
 		boolean isMultiple = ti.isMultiple();
-		System.out.println("If num1 is a multiple of num2 then it is true. so this number is " 
+		System.out.println("If first number is multiple of second number: " 
 		+ isMultiple);
 		
 	}			

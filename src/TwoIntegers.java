@@ -72,7 +72,7 @@ public class TwoIntegers {
 	}
 	public boolean isMultiple()
 	{
-		if((num2 / num) % 2 == 0)
+		if(num % num2 == 0)
 		{
 			return true;
 		}
